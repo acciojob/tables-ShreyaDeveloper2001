@@ -11,32 +11,38 @@
             <caption>List of all transactions</caption>
             <thead class="bg-dark text-light">
                 <tr>
-                    <th scope="col">Transaction ID</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Description</th>
-                    <th scope="col">Amount</th>
+                    <th scope="col">#</th>
+                    <th scope="col">From</th>
+                    <th scope="col">To</th>
+                    <th scope="col">Amount($)</th>
                 </tr>
             </thead>
             <tbody>
 				<!-- Table rows go here -->
                 <tr>
                     <th scope="row">1</th>
-                    <td>2023-09-10</td>
-                    <td>Product Purchase</td>
-                    <td>$50.00</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>1000</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>2023-09-11</td>
-                    <td>Service Fee</td>
-                    <td>-$20.00</td>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>1500</td>
                 </tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>Jack</td>
+					<td>John</td>
+					<td>2000</td>
+				</tr>
                 <!-- Add more rows as needed -->
             </tbody>
             <tfoot class="bg-light">
 				<tr>
-                    <td colspan="3" class="font-monospace text-end fw-bold">Total:</td>
-                    <td class="font-monospace text-end fw-bold" id="total">$30.00</td>
+                    <td colspan="3" class="font-monospace text-end fw-bold">Total</td>
+                    <td class="font-monospace  fw-bold" id="total">4000</td>
                 </tr>
             </tfoot>
         </table>
